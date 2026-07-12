@@ -1,0 +1,7 @@
+interface:
+  display_name: "岗位匹配教练"
+  short_description: "用真实证据判断岗位是否值得申请"
+  default_prompt: "使用 $career-fit-coach 分析这份职位描述和我的经历，先判断是否值得投，再给材料修改建议。"
+
+policy:
+  allow_implicit_invocation: true
